@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/fr/7/77/Logo_enedis_header.png" alt="logo" id="logo"></a>
-                    <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                    <button id="btnmenu" type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
                 <span class="sr-only"></span>
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
