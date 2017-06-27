@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_header_footer.css">
     <link rel="stylesheet" href="./external/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
 
     <title>Homepage</title>
 </head>
