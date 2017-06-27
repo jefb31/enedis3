@@ -1,0 +1,48 @@
+/**{
+  border: 1px solid black;
+}*/
+.container {
+  padding-top: 100px;
+  width : 70%;
+  margin: auto;
+}
+
+#summer, #winter {
+  height: 200px;
+
+}
+#winter {
+background-color: lightblue;
+}
+
+#summer {
+  background-color: yellow;
+}
+
+.boxsummer, .boxwinter {
+  padding: 10px;
+}
+
+.box{
+padding: 10px;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6 {
+  height: 200px;
+}
+
+#p1, #p4{
+  background-color: lightgreen;
+}
+
+#p2, #p5{
+  background-color: orange;
+}
+
+#p3, #p6{
+  background-color: red;
+}
+
+#conseil {
+  height: 20px;
+}
