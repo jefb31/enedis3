@@ -15,7 +15,7 @@
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_header_footer.css">
-    <link rel="stylesheet" href="./external/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
 
     <title>Homepage</title>
 </head>
