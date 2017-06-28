@@ -11,11 +11,16 @@
 
         <div class="boxsummer col-xs-6">
           <div id="summer">
+            <div class="bandeau">
+              <h4>Economiser l'été</h4>
+            </div>
           </div>
         </div>
 
         <div class="boxwinter col-xs-6">
           <div id="winter">
+            <div class="bandeau">
+              <h4>Economiser l'hiver</h4>
           </div>
         </div>
       </div>

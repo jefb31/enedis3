@@ -75,6 +75,7 @@ footer {
 }
 #nav{
   height: 70px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -86,6 +87,10 @@ footer {
         width: 50%;
         position: absolute;
         left: 5%;
+    }
+    #nav {
+      width: 70%;
+      margin: auto;
     }
 
     .navbar-header a {

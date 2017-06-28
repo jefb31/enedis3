@@ -19,12 +19,23 @@
   max-height: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
-
+  position: relative;
 }
 #winter {
 background-image: url("img/neige.jpg");
 background-size: cover;
 border-radius: 10px;
+}
+
+.bandeau {
+  height: 10vw;
+  max-height: 120px;
+  min-height: 50px;
+  background-color: #005EB8;
+  filter: opacity(70%);
+  position: absolute;
+  width: 100%;
+  bottom : 0;
 }
 
 .imgcat{
@@ -81,4 +92,13 @@ h3 {
 
 .text1.p {
   text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 1vw;
+  filter: brightness(300%);
+  font-weight: bold;
 }
