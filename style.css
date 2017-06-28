@@ -2,10 +2,6 @@
   border: 1px solid black;
 }*/
 
-.ensemble{
-  width: 70%;
-  margin: auto;
-}
 
 .container {
   padding-top: 100px;
@@ -13,9 +9,14 @@
   margin: auto;
 }
 
+.rowcat {
+  padding : 10px !important;
+  height:
+}
+
 #summer, #winter {
   height: 30vw;
-  max-height: 400px;
+  max-height: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
 
@@ -24,14 +25,24 @@
 background-image: url("img/neige.jpg");
 background-size: cover;
 border-radius: 10px;
+}
 
+.imgcat{
+height: 100px;
+background-color: white;
+
+}
+.img{
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+  padding-bottom: 28px;
+  padding-left: 20px;
 }
 
 .boxsummer, .boxwinter{
 padding: 10px;
-
 }
-
 
 #summer {
   background-image: url("img/Canicule.jpg");
@@ -40,28 +51,34 @@ padding: 10px;
 }
 
 .box{
-padding: 10px;
+/*padding: 10px;*/
 }
 
-#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8{
-  height: 200px;
-}
-
-#p1, #p5{
-  background-color: lightgreen;
-}
-
-#p2, #p6{
-  background-color: orange;
-}
-
-#p3, #p7{
-  background-color: red;
-}
+#p1, #p5,
+#p2, #p6,
+#p3, #p7,
 #p4, #p8{
-  background-color: lightblue;
+  height: 120px;
 }
 
 #conseil {
   height: 20px;
+}
+
+.txtcat1, .txtcat2, .txtcat3, .txtcat4 {
+  background-color: #005EB8 !important;
+  color: white;
+  border-radius: 10px;
+  padding-right: 20px !important;
+}
+
+h3 {
+  text-align: center;
+}
+.text1 {
+  margin-top: 20px;
+}
+
+.text1.p {
+  text-align: center;
 }
