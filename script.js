@@ -165,9 +165,9 @@ $("#profil").delegate("#p1", "click", function(){
   $(".text1").toggle(500);
     $(".text1").html(
 
-      '<p>conseil 1-1</p>'+
-      '<p>conseil 1-2</p>'+
-      '<p>conseil 1-2</p>'
+      '<p>La climatisation est le premier poste de dépense d électricité en été. Dans la mesure du possible, il est conseillé d utiliser des ventilateurs, qui consomment moins d énergie et qui, même s ils ne refroidissent pas l air, permettent de mieux supporter la chaleur.</p>'+
+      '<p>Eviter de la régler sur une température trop froide. Une trop grande différence entre la température intérieure et extérieure peut comporter des risques pour la santé, alors qu une différence de 5° C avec la chaleur extérieure suffit le plus souvent au confort des occupants et réduira en même temps la consommation électrique.</p>'+
+      '<p>Choisir un appareil performant  (avec une étiquette énergie de classe A). En effet, ne serait-ce que pour 3 mois, les climatiseurs, énergivores, augmentent votre consommation d électricité de 2.000 kWh pour une petite surface (45 m2) et votre facture de 20 à 25%. De plus, de nombreux climatiseurs rejettent des gaz à effet de serre, en cause dans le réchauffement climatique.</p>'
     );
   });
 
@@ -175,9 +175,8 @@ $("#profil").delegate("#p1", "click", function(){
     $(".text2").toggle(500);
       $(".text2").html(
 
-        '<p>conseil 2-1</p>'+
-        '<p>conseil 2-2</p>'+
-        '<p>conseil 2-3</p>'
+        '<p>Les ordinateurs, imprimantes, téléviseurs dégagent de la chaleur lors de leur utilisation, mais aussi lorsqu ils sont en position veille.</p>'+
+        '<p>Préférer les appareils à basse consommation et de les débrancher après leur utilisation.</p>'
       );
     });
 
@@ -185,9 +184,9 @@ $("#profil").delegate("#p1", "click", function(){
       $(".text3").toggle(500);
         $(".text3").html(
 
-          '<p>conseil 3-1</p>'+
-          '<p>conseil 3-2</p>'+
-          '<p>conseil 3-3</p>'
+          '<p>Mettre une bache la nuit pour éviter les déperditions de chaleur.</p>'+
+          '<p>Faire tourner le moteur pendant les heures creuses.</p>'+
+          '<p>Une piscine bien exposée permet de gagner de précieux degrés.</p>'
         );
       });
 
@@ -195,9 +194,9 @@ $("#profil").delegate("#p1", "click", function(){
         $(".text4").toggle(500);
           $(".text4").html(
 
-            '<p>conseil 4-1</p>'+
-            '<p>conseil 4-2</p>'+
-            '<p>conseil 4-3</p>'
+            '<p>Afin de limiter la chaleur dans votre logement, il est recommandé de fermer les volets ou baisser les stores pendant la journée</p>'+
+            '<p>Fermer les fenêtres lorsque la température extérieure est supérieure à la température intérieure.</p>'+
+            '<p>A l’inverse, la nuit, quand les températures sont au plus bas, ouvrir les fenêtres, afin de créer des courants d’air.</p>'
           );
         });
 
