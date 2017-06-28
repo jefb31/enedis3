@@ -18,9 +18,9 @@ nav.navbar {
     background-color: whitesmoke;
     text-transform: uppercase;
     border: 0;
-    margin: 0;
+    margin: auto;
     position: fixed;
-    width: 100%;
+    width: 70%;
     z-index: 1;
     height: auto !important;
 }
@@ -29,7 +29,7 @@ nav.navbar {
     width: 25%;
     padding: 7px 15px 0 15px;
     position: absolute;
-    left: 0;
+
 }
 
 .navbar-toggle {
@@ -85,7 +85,7 @@ footer {
     .navbar-header {
         width: 50%;
         position: absolute;
-        left: 15%;
+        left: 5%;
     }
 
     .navbar-header a {
@@ -100,7 +100,7 @@ footer {
         display: flex;
         flex-wrap: nowrap;
         position: absolute;
-        right: 15%;
+        right: 5%;
     }
 
     .nav.navbar-nav li {
