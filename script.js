@@ -28,11 +28,6 @@ $("#summer").click(function(){
         '</div>'+
         '<div class="txtcat1 col-xs-12 col-sm-12 col-md-8">'+
           '<h3>Climatisation</h3>'+
-          '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
-          '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
-          '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
-          '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
-          '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
         '</div>'+
         '</div>'+
         '</div>'+
@@ -47,13 +42,14 @@ $("#summer").click(function(){
       '</div>'+
       '<div class="txtcat2 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Electroménager / Multimédias</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
     '<div class="text2"></div>'+
   '</div>'+
+  '</div>'+
 
+'<div class="row menu2">'+
   '<div class="box boxp3 col-xs-12 col-sm-6">'+
     '<div id="p3">'+
     '<div class="rowcat row">'+
@@ -62,7 +58,6 @@ $("#summer").click(function(){
       '</div>'+
       '<div class="txtcat3 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Piscine</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
@@ -77,7 +72,6 @@ $("#summer").click(function(){
       '</div>'+
       '<div class="txtcat4 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Autres Conseils</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
@@ -113,7 +107,6 @@ $("#winter").click(function(){
       '</div>'+
       '<div class="txtcat1 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Chauffage</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
@@ -128,13 +121,14 @@ $("#winter").click(function(){
       '</div>'+
       '<div class="txtcat2 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Electroménager / Multimédias</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
     '<div class="text6"></div>'+
   '</div>'+
+'</div>'+
 
+'<div class="row menu2">'+
   '<div class="box boxp7 col-xs-12 col-sm-6">'+
     '<div id="p7">'+
     '<div class="rowcat row">'+
@@ -143,7 +137,6 @@ $("#winter").click(function(){
       '</div>'+
       '<div class="txtcat3 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Chauffe-eau</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
@@ -158,7 +151,6 @@ $("#winter").click(function(){
       '</div>'+
       '<div class="txtcat4 col-xs-12 col-sm-12 col-md-8">'+
         '<h3>Autres conseils</h3>'+
-        '<p>bah i viur i iuiuv veivieviev ivbefibve iu ei</p>'+
       '</div>'+
       '</div>'+
     '</div>'+
@@ -213,9 +205,12 @@ $("#profil").delegate("#p1", "click", function(){
           $(".text5").toggle(500);
             $(".text5").html(
 
-              '<p>conseil 5-1</p>'+
-              '<p>conseil 5-2</p>'+
-              '<p>conseil 5-3</p>'
+
+              '<p>L utilisation d un thermostat d ambiance pendant l absence des habitants du foyer durant la journée permet d économiser et de réduire sa facture . 1 degré en moins c est 7% d economisé.</p>'+
+              '<p>Le chauffage et l eau chaude représentant 75% des dépenses énergétiques d un ménage.</p>'+
+              '<p>Si vous soujaitez améliorer le confort de votre logement, l isolation est souvent la premiére mesure a envisager.</p>'+
+              '<p>La mise en place d’une VMC double flux afin d’optimiser le renouvellement d’air et limiter les pertes de chaleur permet d économiser de l énergie.</p>'+
+              '<p>Veillez à dégager les grilles de ventilations/aérations afin de diminuer l humidité du logement. La consommation du chauffage est plus élevée lorsqu il y a présence d humidité.</p>'
             );
           });
 
@@ -223,9 +218,11 @@ $("#profil").delegate("#p1", "click", function(){
             $(".text6").toggle(500);
               $(".text6").html(
 
-                '<p>conseil 6-1</p>'+
-                '<p>conseil 6-2</p>'+
-                '<p>conseil 6-3</p>'
+                '<p>Opter pour du matériel informatique porteurs du logo "Energy" star et/ou de l écolabel Européen.</p>'+
+                '<p>Les equipements de loisirs informatique et audiovisuel sont devenus le premier poste de consomation electriques hors chauffage et eau chaude. Pensez donc a choisir votre électroménager et votre téléviseur avec l étiquette énergie, les classes A+, A++ et A+++ désignent les plus efficaces. </p>'+
+                '<p>De nombreux appareils électroniques (téléphones mobiles, ordinateurs portables, consoles de jeux, appareils photos...) sont dotés de de batteries rechargeables. ne les laissez pas branchés en charge en permanence plus que nécessaire, car ils consomment de l électricité tant qu ils sont en charge.</p>'+
+                '<p>Faire sécher son linge a l air libre ou dans un local bien ventilé, le séche linge peut consommer beaucoup d énergie.</p>'+
+                '<p>Pensez a éteindre tous les appareils électriques non utilisés, car en mode veille ils consomment de l’électricité, on estime a environ 85 euros par an et par foyer les pertes dues aux consommations fantômes.</p>'
               );
             });
 
@@ -233,9 +230,8 @@ $("#profil").delegate("#p1", "click", function(){
               $(".text7").toggle(500);
                 $(".text7").html(
 
-                  '<p>conseil 7-1</p>'+
-                  '<p>conseil 7-2</p>'+
-                  '<p>conseil 7-3</p>'
+                  '<p>Régler la température de son chauffe-eau sur 50° a 60° permet de consommer moins d’énergie pour avoir de l’eau chaude et aussi de limiter le développement du calcaire.</p>'+
+                  '<p>Les chauffe-eau solaire individuels et les systémes solaires combinés sont des systémes robustes et fiables demandant peu d entretien. Un chauffe eau solaire peut couvrir 50 à 70% des besoins de la maison .Le systéme solaire combiné( systéme de chauffage solaire) couvre entre 25 à 60% des besoins annuels d eau chaude et de chauffage, selon la région et la taille de l installation.</p>'
                 );
               });
 
@@ -243,9 +239,10 @@ $("#profil").delegate("#p1", "click", function(){
                 $(".text8").toggle(500);
                   $(".text8").html(
 
-                    '<p>conseil 8-1</p>'+
-                    '<p>conseil 8-2</p>'+
-                    '<p>conseil 8-3</p>'
+                    '<p>Changer les fenêtres ( huisseries) afin de réduire les deperditions par les fenêtres . 10 à 15% des déperditions d énergie de la maison sont le fait de fenêtres anciennes ou mal isolées.</p>'+
+                    '<p>Vous pouvez réaliser un auto-diagnostique afin de réaliser un bilan de vos consommations et d obtenir des conseils quand a votre mode de vie, et vos habitudes a modifier dans le but de réaliser des économies d énergie.</p>'+
+                    '<p>Vous pouvez aérer votre logement 10 minutes par jour, ainsi l’air du logement sera renouvelé.   ( pensez a éteindre le chauffage lorsque les fenêtres sont ouvertes ) </p>'+
+                    '<p>Pensez a laisser les portes ouvertes, afin de faciliter la circulation d air naturel des pièces sèches (salon, bureau, chambres) vers les pièces humides( salle de bain, cuisine ) </p>'
                   );
                 });
 });

@@ -78,9 +78,17 @@ footer {
   width: 100%;
 }
 
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+  margin-top: 120px;
+}
+
 @media (min-width: 768px) {
     nav.navbar {
-        position: relative;
+        position: fixed;
+    }
+
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+      margin-top: 20px;
     }
 
     .navbar-header {
@@ -90,7 +98,7 @@ footer {
     }
     #nav {
       width: 70%;
-      margin: auto;
+      margin-left: 15%;
     }
 
     .navbar-header a {
