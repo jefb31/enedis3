@@ -9,6 +9,7 @@
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link href="./bootstrap/css/bootstrap-theme.css" rel="stylesheet"/>
     <link href="./bootstrap/fonts" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery.js"></script>
     <script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
